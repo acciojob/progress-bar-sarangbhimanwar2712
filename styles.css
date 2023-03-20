@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+section{
+	display: flex;
+	flex-flow: column wrap;
+	height:300px;
+/* 	border:2px solid blue ; */
+	justify-content: center;
+	align-items:center;
+	gap: 40px ;
+}
+.line{
+	height:4px ;
+	background-color: red;	
+	flex-grow: 1 ;
+	width: 2px ;
+}
+.top{
+	display: flex;
+	flex-flow: row wrap;
+	width: 50% ;
+/* 	border: 2px solid blue ; */
+	align-items: center;
+}
+.one{
+	padding: 10px ;
+	border: 1px solid orange ;
+	border-radius: 50% ;
+}
